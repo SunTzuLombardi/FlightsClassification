@@ -82,24 +82,34 @@ To Classify if Delayed or not.  Delays are on Arrival Delays and >=15 mins
 Best Predictive Results were found with the XGBoost algorithm
 With a Recall of 59%, Accuracy 66% , F1 value of .59
 
-MODEL
-RECALL
-ACCURACY
-F1
-XGBoost
-59%
-66%
-59%
-Random Forest
-59%
-65%
-57%
-Decision Tree
-39%
-68%
-55%
-Logistic Regression
-DNF
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 25.0000%;">Model</td>
+            <td style="width: 25.0000%;">Recall</td>
+            <td style="width: 25.0000%;">Accuracy</td>
+            <td style="width: 25.0000%;">F1</td>
+        </tr>
+        <tr>
+            <td style="width: 25.0000%;">XGBoost</td>
+            <td style="width: 25.0000%;">59%</td>
+            <td style="width: 25.0000%;">66%</td>
+            <td style="width: 25.0000%;">59%</td>
+        </tr>
+        <tr>
+            <td style="width: 25.0000%;">Random Forest</td>
+            <td style="width: 25.0000%;">59%<br></td>
+            <td style="width: 25.0000%;">65%</td>
+            <td style="width: 25.0000%;">57%</td>
+        </tr>
+        <tr>
+            <td style="width: 25.0000%;">Decision Tree</td>
+            <td style="width: 25.0000%;">39%</td>
+            <td style="width: 25.0000%;">68%</td>
+            <td style="width: 25.0000%;">55%</td>
+        </tr>
+    </tbody>
+</table>
 
 A flight is considered delayed when it arrived 15 or more minutes than the schedule (see definitions in Frequently Asked Questions). Delayed minutes are calculated for delayed flights only.
 When multiple causes are assigned to one delayed flight, each cause is prorated based on delayed minutes it is responsible for. The displayed numbers are rounded and may not add up to the total.
