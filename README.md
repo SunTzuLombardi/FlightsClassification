@@ -118,16 +118,15 @@ Pulled from BTS Bureau Trans StatNote: Airlines report late-arriving aircraft as
 ## Conclusions
 
 We predicted 59% of Delayed flights but Recall needs to be more accurate.<br>
-SouthWest Airlines should focus on Reducing Backup Delays as that is 50% of All Delays<br>
+SouthWest Airlines should focus on Reducing Backup Delays as that is 50% of All Delays.<br>
 
 Challenges<br>
-Large Dataset and finding an appropriate model for the complexity of the data was a challenge.<br>
-
+The Large Dataset and finding an appropriate model for the complexity of the data was a challenge.<br>
 
 ## Next Steps
 
-Reduction of origins and destinations: Top 20, Top 10<br>
-Try PCA analysis<br>
+Try to model again with reduction of origins and destinations: Top 20, Top 10.<br>
+Another additional approach is to try PCA analysis for understanding the value of certain features.<br>
 <br>
 
 ## For More Information
