@@ -101,9 +101,13 @@ Decision Tree
 Logistic Regression
 DNF
 
+A flight is considered delayed when it arrived 15 or more minutes than the schedule (see definitions in Frequently Asked Questions). Delayed minutes are calculated for delayed flights only.
+When multiple causes are assigned to one delayed flight, each cause is prorated based on delayed minutes it is responsible for. The displayed numbers are rounded and may not add up to the total.
+
 
 ![10AircraftLate.png](./images/10AircraftLate.png?raw=true)<br>
 
+Pulled from BTS Bureau Trans StatNote: Airlines report late-arriving aircraft as a category of the cause of delay when a previous flight with same aircraft arrived late, causing the present flight to depart late. Airlines do not report the cause of delay for the first late flight that caused the second delay. Using data reported by the airlines for other categories of delay causes, the page displays calculations of the causes of delay for the late arriving aircraft category. These calculations use the percentages of delay minutes reported by the airlines in the air carrier, national aviation system, security and weather categories and assign them proportionately to the late arriving aircraft category. The displayed numbers are rounded and may not add up to the total.
 
 ## Conclusions
 
