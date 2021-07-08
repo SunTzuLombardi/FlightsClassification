@@ -3,7 +3,7 @@ Classify flights as delayed or not
 
 
 
-![neighborhood.jfif](./images/neighborhood.jfif?raw=true)
+![flightsbalance.jfif](./images/3NumOnTimeDelayedbyCarrier.png?raw=true)
 
 ## Overview
 
@@ -65,14 +65,19 @@ We also performed Classification Analysis with Machine Learning Algorithms
 With GridSearch narrowing down the most optimal Hyperparameters to predict delayed flights and assess the strength and relationship and importance of the different features and their relation to delayed flight.
 
 
-
 ## Results
 
-![kingsEmployers.png](./images/kingsEmployers.png?raw=true)
+![1TotalFlightsbyCarrier.png](./images/1TotalFlightsbyCarrier.png?raw=true)
+
+![2BusiestCitiesbyFlights.png](./images/2BusiestCitiesbyFlights.png?raw=true)
 
 Modeling with continuous features Distance, Flight Time, 
 Categoricals Weekdays, Months, Top 5 Airlines, Top 30 Origins and Destinations
 To Classify if Delayed or not.  Delays are on Arrival Delays and >=15 mins
+
+
+
+![6delayedSplit.png](./images/6delayedSplit.png?raw=true)
 
 Best Predictive Results were found with the XGBoost algorithm
 With a Recall of 59%, Accuracy 66% , F1 value of .59
@@ -97,7 +102,7 @@ Logistic Regression
 DNF
 
 
-![qqplotfinal.png](./images/qqplotfinal.png?raw=true)<br>
+![10AircraftLate.png](./images/10AircraftLate.png?raw=true)<br>
 
 
 ## Conclusions
@@ -117,7 +122,7 @@ Try PCA analysis<br>
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/SunTzuLombardi/Classification/blob/main/code/Classification.ipynb) or review this [presentation](https://github.com/SunTzuLombardi/Classification/blob/main/presentation.pdf)
+See the full analysis in the [Jupyter Notebook](https://github.com/SunTzuLombardi/FlightsClassification/blob/main/code/Classification.ipynb) or review this [presentation](https://github.com/SunTzuLombardi/FlightsClassification/blob/main/presentation.pdf)
 
 For additional info, contact Daniel M. Smith at danielmsmith1@gmail.com
 
