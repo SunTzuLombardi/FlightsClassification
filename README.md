@@ -1,8 +1,4 @@
 # Classification
-Classify flights as delayed or not
-
-
-
 ![flightsbalance.jfif](./images/3NumOnTimeDelayedbyCarrier.png?raw=true)
 
 ## Overview
