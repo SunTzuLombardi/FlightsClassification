@@ -52,7 +52,7 @@ LATE_AIRCRAFT_DELAY - Delay due to late Aircraft in Min<br>
 ## Methods
 
 We performed Inferential Analysis of 7M+ recs looking at Airlines, Destinations of Flights, Delays, Times,
-We then reduced the Data set to just the Top 5 Airlines by numner of flights.
+We then reduced the Data set to just the Top 5 Airlines by number of flights.
 We reduced the number of Origins and Destinations to the top 30 instead of the 358.
 
 We also performed Classification Analysis with Machine Learning Algorithms
